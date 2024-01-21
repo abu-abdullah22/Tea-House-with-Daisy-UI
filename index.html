@@ -35,10 +35,10 @@
   <body class="font">
 
     <header  class="container mx-auto my-24">
-        <div class="hero">
-            <div class="hero-content flex-col gap-3 lg:flex-row-reverse lg:justify-between">
-            <div>
-                <img src="./images/banner.png" class="max-w-sm" />
+        <div class="">
+            <div class="flex justify-between  flex-col gap-3 lg:flex-row-reverse lg:justify-between">
+            <div class="p-6">
+                <img src="./images/banner.png" class="" />
                 <div  class="-mt-16 flex items-center gap-2 drop-shadow-lg bg-white p-3 rounded-md w-60">
                    <img class="w-[48px]" src="./images/star.png" alt="">
                     <div>
@@ -47,11 +47,11 @@
                     </div>
                 </div>
             </div>
-              <div>
+              <div class="space-y-7 p-6">
                 <h1 class="text-7xl font-extrabold">It's good <br>
                     tea time at The <br> Tea House</h1>
-                <p class="py-6 opacity-80">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                <button class="btn btn-primary">Explore More</button>
+                <p class="py-6 opacity-80">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.</p>
+                <button class="btn bg-gradient-to-r from-[#F00] to-[#FF8938] text-white text-lg font-bold"><p>Explore More</p> <img src="./images/Frame.svg" alt=""> </button>
               </div>
             </div>
           </div>
@@ -133,7 +133,7 @@
                 Meet Our Super <br> Clients
               </h2>
               <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-              <button class="btn btn-primary">Show All</button>
+              <button class="btn bg-white text-orange-700 text-lg font-bold">Show All</button>
             </div>
           </div>
 
@@ -187,7 +187,7 @@
           <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               <!-- first card  -->
               <div class="card bg-white py-5 px-3 border-2 border-[#d2d2d2]">
-                <figure><img src="./images/news-1.png" alt="" /></figure>
+                <figure class="-ml-16"><img src="./images/news-1.png" alt="" /></figure>
                 <div class="card-body">
                   <p class="opacity-70">February 2, 2024</p>
                   <h2 class="text-2xl font-bold">Collecting 8 points for discount</h2>
@@ -197,7 +197,7 @@
               </div>
               <!-- second card  -->
               <div class="card bg-white py-5 px-3 border-2 border-[#d2d2d2]">
-                  <figure><img src="./images/news-2.png" alt="" /></figure>
+                  <figure class="-ml-16"><img src="./images/news-2.png" alt="" /></figure>
                   <div class="card-body">
                     <p class="opacity-70">February 2, 2024</p>
                     <h2 class="text-2xl font-bold">Collecting 8 points for discount</h2>
@@ -207,7 +207,7 @@
                 </div>
               <!-- third card  -->
               <div class="card bg-white py-5 px-3 border-2 border-[#d2d2d2]">
-                  <figure><img src="./images/news-3.png" alt="" /> </figure>
+                  <figure class="-ml-16"><img src="./images/news-3.png" alt="" /> </figure>
                   <div class="card-body">
                     <p class="opacity-70">February 2, 2024</p>
                     <h2 class="text-2xl font-bold">Collecting 8 points for discount</h2>
@@ -216,10 +216,54 @@
                   </div>
                 </div>
         </section>
+
     </main>
+    <footer class=" p-10 text-base-content">
+      <div class="flex justify-between mb-24 container mx-auto"> 
+        <img src="./images/cup.png" alt="">
+        <p>
+          <span>Ready to get started?</span>
+          <button class="btn bg-gradient-to-r from-[#F00] to-[#FF8938] text-white text-lg font-bold"> Get Started</button>
+        </p>
+      </div>
+    <div class=" footer container mx-auto">
+      <nav>
+        <header class="footer-title">Services</header> 
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav> 
+      <nav>
+        <header class="footer-title">Company</header> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav> 
+      <nav>
+        <header class="footer-title">Legal</header> 
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav> 
+      <form>
+        <header class="footer-title">Newsletter</header> 
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label> 
+          <div class="join">
+            <input type="text" placeholder="username@site.com" class="py-4 bg-transparent border-b-2 border-black outline-none" /> 
+            <button class="btn bg-gradient-to-r from-[#F00] to-[#FF8938] rounded-full"><i class="fa-solid fa-angle-right" style="color: #ffffff;"></i></button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
 
-    <footer>
-
+      <div class="mt-12 mb-28 text-center">
+        <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+      </div>
     </footer>
 
   </body>
